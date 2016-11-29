@@ -26,8 +26,8 @@ app.get('/', function(req, res) {
 
 //start server
 //this is for c9.io dev environment
-app.listen(process.env.PORT, function() {
-  console.log(`ready on port 8080`);
-});
+//app.listen(process.env.PORT, function() {
+  //console.log(`ready on port 8080`);
+//});
 
 module.exports = app;

@@ -1,13 +1,13 @@
 //this page will be used for deploying to heroku apart from c9.io
 //look into deploying to heroku straight from c9.io
 
-/*var app = require(".app");
+var app = require("../app");
 var http = require('http');
 var bodyParser = require('body-parser');
 
 
 
-var port = normalizePort(process.env.PORT || 8080);
+var port = normalizePort(process.env.PORT || 3000);
 app.set('port', port);
 
 var server = http.createServer(app);
@@ -29,4 +29,4 @@ function normalizePort(val) {
   }
 
   return false;
-}*/
+}
