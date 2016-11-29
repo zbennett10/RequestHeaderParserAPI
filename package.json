@@ -2,7 +2,7 @@
   "name": "HeaderParserAPI",
   "version": "1.0.0",
   "description": "A simple API that parses the client's header for information.",
-  "start": "node .bin/www"
+  "start": "node .bin/www",
   "main": "app.js",
   "repository": "https://github.com/zbennett10/RequestHeaderParserAPI",
   "author": "Zachary Bennett zbennett10@hotmail.com",
